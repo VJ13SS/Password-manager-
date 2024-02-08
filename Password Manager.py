@@ -21,7 +21,7 @@ def write():
 			print('\nYour Created password:\n ',password)
 		else:
 			password=input('\nEnter the password: ')
-		type=input('\nEnter the category: ')
+		type=input('\nEnter the password category: ')
 		fp.write(f'{type} {password}\n')
 	print('\nPassword Added Successfully')
 	
